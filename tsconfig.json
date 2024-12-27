@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ES2015",
+    "lib": ["esnext"],
+    "outDir": "./dist",
+    "rootDir": ".",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports":true,
+    "declaration": true,
+    "removeComments": true,
+    "strict": true    
+  },
+  "exclude": ["node_modules"],
+  "files": ["./index.ts"]
+}

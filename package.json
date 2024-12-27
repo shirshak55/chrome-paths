@@ -1,0 +1,54 @@
+{
+	"name": "chrome-paths",
+	"version": "0.0.1",
+	"description": "Get the paths of Chrome browser easily",
+	"main": "dist/index.js",
+	"typings": "dist/index.d.ts",
+	"repository": "shirshak55/chrome-paths",
+	"funding": "https://github.com/sponsors/shirshak55",
+	"author": "shirshak",
+	"license": "MIT",
+	"private": false,
+	"type": "module",
+	"files": [
+		"dist/index.js",
+		"dist/index.d.ts"
+	],
+	"keywords": [
+		"browser",
+		"chrome",
+		"paths",
+		"chrome-paths",
+		"exists",
+		"path"
+	],
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"watch": "tsc --watch",
+		"build": "tsc",
+		"prepare": "husky install",
+		"test": "node tests/index.js"
+	},
+	"exports": "./dist/index.js",
+	"devDependencies": {
+		"@commitlint/cli": "^17.4.2",
+		"@commitlint/config-conventional": "^17.4.2",
+		"@commitlint/cz-commitlint": "^17.4.2",
+		"@types/node": "^16.11.9",
+		"commitizen": "^4.3.0",
+		"got": "^11.8.6",
+		"husky": "^8.0.3",
+		"typescript": "^4.5.2",
+		"@types/which": "^2.0.1"
+	},
+	"config": {
+		"commitizen": {
+			"path": "@commitlint/cz-commitlint"
+		}
+	},
+	"dependencies": {
+		"which": "5.0.0"
+	}
+}

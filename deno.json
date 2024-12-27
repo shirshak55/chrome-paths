@@ -1,0 +1,5 @@
+{
+	"name": "@browser/chrome-paths",
+	"version": "0.0.1",
+	"exports": "./index.ts"
+}
