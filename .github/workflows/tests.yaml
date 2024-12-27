@@ -38,9 +38,9 @@ jobs:
                     - macos-latest
                     - macos-11
                 node_version:
-                    - 14
-                    - 16
-                    - 17
+                    - 18
+                    - 20
+                    - 23
         name: Node ${{ matrix.node_version }} - ${{ matrix.architecture }} on ${{ matrix.os }}
         steps:
             - uses: actions/checkout@v2
@@ -66,9 +66,9 @@ jobs:
                     - windows-latest
                     - windows-2022
                 node_version:
-                    - 14
-                    - 16
-                    - 17
+                    - 28
+                    - 20
+                    - 23
         name: Node ${{ matrix.node_version }} - ${{ matrix.architecture }} on ${{ matrix.os }}
         steps:
             - uses: actions/checkout@v2
